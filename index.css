@@ -1,8 +1,13 @@
 #getScreenshot{
   border: 2px solid red;
-  padding-top: 10px;
-  padding-bottom: 80px;
+  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: red;
 }
-.red{
+#getScreenshot:hover{
+  border: 2px solid #990000;
+}
+.icon{
   color: red;
 }
