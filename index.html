@@ -5,18 +5,23 @@
     <title>Get ScreenShot</title>
     <!-- Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <!-- Feel free to download and modify -->
+    <!-- drone-deploy stylesheet -->
     <link rel="stylesheet" href="https://s3.amazonaws.com/drone-deploy-plugins/templates/uikit/v1/styles.css">
+    <!-- getScreenshot stylesheet -->
     <link rel="stylesheet" href="./index.css">
+    <!-- html2canvas script -->
+    <script rype="text/javascript" src='./html2canvas.min.js'></script>
   </head>
   <body>
-    <button
-    id="getScreenshot"
-    type="button"
-    class="red"
-    onclick="GetScreenshot()">
-    <span class="fa fa-file-pdf-o fa-3x red"></span>&emsp;Generate a PDF of this map
-  </button>
+    <br />
+    <br />
+    <a
+      id="getScreenshot"
+      type="button"
+      class="button"
+      onclick="GetScreenshot()">
+      <span class="fa fa-file-pdf-o fa-2x icon"></span>&emsp;Generate a PDF of this map
+    </a>
     <script type="text/javascript" src='./getScreenshot.js'></script>
   </body>
 </html>
